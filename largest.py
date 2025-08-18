@@ -1,0 +1,5 @@
+a=int(input("Enter the value of a:"))
+b=int(input("Enter the value of b:"))
+c=int(input("Enter the value of c:"))
+big=a if(a>b and a>c)else(b if b>c else c)
+print("The largest number is",big)
