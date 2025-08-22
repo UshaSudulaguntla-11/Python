@@ -1,7 +1,7 @@
-str=str(input("Enter the string:"))
-count=0
+str=str(input("Enter a string:"))
+rev_str=""
 for i in str:
-  print(i)
-for i in str:
-  count+=1
-print("The length of the string is:",count)
+	rev_str=i+rev_str
+print("Original string:",str)
+print("Reversed string:",rev_str)
+	
