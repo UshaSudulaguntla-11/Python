@@ -1,0 +1,7 @@
+def second_largest(my_list):
+    my_list.sort()
+    second_largest=my_list[-2]
+    return second_largest
+my_list=[1,5,3,9,7,8]
+second=second_largest(my_list)
+print("Second largest element in a list:",second)
