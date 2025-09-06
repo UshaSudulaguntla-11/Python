@@ -1,0 +1,9 @@
+car={
+    "brand":"Ford",
+    "model":"Mustang",
+    "color":"white"
+}
+car.update({"year":2025})
+print(car)
+car["lifetime"]=20
+print(car)
