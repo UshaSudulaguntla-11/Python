@@ -1,0 +1,6 @@
+def reverse(String):
+    return String[::-1]
+String="USHA"
+reverse=reverse(String)
+print("Original string:",String)
+print("Reverse of a string:",reverse)
