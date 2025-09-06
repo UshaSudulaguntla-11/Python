@@ -1,1 +1,9 @@
+def max_min(my_list):
+    smallest=min(my_list)
+    largest=max(my_list)
+    return smallest,largest
+my_list=[1,5,3,8,7,9]
+smallest,largest=max_min(my_list)
+print("Smallest element in a list:",smallest)
+print("Largest element in a list:",largest)
 
