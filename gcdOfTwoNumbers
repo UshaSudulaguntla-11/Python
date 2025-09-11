@@ -1,8 +1,10 @@
-def gcd(a,b):
-    while(b!=0):
-        a,b=b,a%b
+def gcd(a, b):
+    while b != 0:
+        a, b = b, a % b
     return a
-gcd=gcd(50,25)
-a=50
-b=25
-print(f"GCD of {a} and {b} is",gcd)
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+result = gcd(a, b)
+print(f"GCD of {a} and {b} is {result}")
+
