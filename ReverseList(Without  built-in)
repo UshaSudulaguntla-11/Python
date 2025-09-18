@@ -1,0 +1,10 @@
+n=int(input("Enter a number:"))
+l=[]
+rev=[]
+for i in range(n):
+    ele=int(input("Enter element:"))
+    l.append(ele)
+print(l)
+for i in range(len(l)-1,-1,-1):
+    rev.append(l[i])
+print(rev)
